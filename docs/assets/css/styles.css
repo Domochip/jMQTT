@@ -1,17 +1,11 @@
 h1 {
-	font-size : 2rem !important;
+	font-size : 2.5rem !important;
 }
 h2 {
-	font-size : 1.6rem !important;
+	font-size : 2rem !important;
 }
 h3 {
-	font-size : 1.2rem !important;
-}
-h4 {
-    font-size : 1.0rem !important;
-}
-h5 {
-    font-size : 1.0rem !important;
+	font-size : 1.5rem !important;
 }
 h1,h2,h3,h4,h5 {
 	color : #95C12B !important;
@@ -46,12 +40,9 @@ h1,h2,h3,h4,h5 {
 		padding-left : 0 !important; 
 	}
 }
-#toc ul li{
+.toclevel-2{
 	margin-left : 10px !important;
 }
-/*.toclevel-3{
-    margin-left : 10px !important;
-}*/
 nav ul a,nav {
 	color: #444 !important;
 	background-color: #fff !important;
@@ -74,7 +65,7 @@ nav ul a,nav {
 	background-color: rgba(149, 193, 43, 0.65);
 }
 .toclevel-1 a{
-	padding-left: 0px !important;
+	padding-left: 10px !important;
 	height: 100% !important;
 	vertical-align: middle !important;
 }
@@ -83,9 +74,6 @@ nav ul a,nav {
 }
 .toctext{
 	font-size : 0.85rem !important; 
-}
-.tocfirst-letter{
-  font-size : 1rem !important; 
 }
 .tocnumber{
 	color : #95C12B !important;
